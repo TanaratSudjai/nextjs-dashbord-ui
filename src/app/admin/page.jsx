@@ -8,7 +8,7 @@ import Content from "./components/Content";
 function AdminPage() {
   return (
     <div>
-      <Container>
+      <Container >
         <AdminNav />
         <div className="flex-grow">
           <div className="container mx-auto">

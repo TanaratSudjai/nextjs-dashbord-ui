@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.indexBG{
+    background-image: url('https://bubble.io/blog/content/images/2023/07/website-design-and-development.png');
+    height: 100vh;
+    background-size: cover;
+
+}
+.t-p{
+    backdrop-filter: blur(8px);
+
+}
