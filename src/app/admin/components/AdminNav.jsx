@@ -7,18 +7,30 @@ function AdminNav() {
   return (
     <nav className="shadow-xl">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center p-4">
+        <div className="flex justify-between items-center p-6">
           <div className="">
             <Link href="/">
               <Image src={Logo} width={100} height={100} alt="Logo NextJS" />
             </Link>
           </div>
           <ul className="flex">
+
             <li className="mx-3">
-              <Link href="/login">Login</Link>
+              <Link href="/" className="hover:underline">
+                Index
+              </Link>
             </li>
+            
             <li className="mx-3">
-              <Link href="/register">Register</Link>
+              <Link href="/login" className="hover:underline">
+                Login
+              </Link>
+            </li>
+
+            <li className="mx-3">
+              <Link href="/register" className="hover:underline">
+                Register
+              </Link>
             </li>
           </ul>
         </div>

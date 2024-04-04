@@ -18,7 +18,6 @@ function AdminPage() {
             </div>
           </div>
         </div>
-        <Footer />
       </Container>
     </div>
   );

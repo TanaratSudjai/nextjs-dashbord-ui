@@ -1,18 +1,18 @@
 import React from 'react'
-import Navber from "../components/Navber";
-import Container from "../components/Container";
+import AdminNav from "../../components/AdminNav";
+import Container from "../../components/Container";
 import Link from "next/link";
 
 
 function EditPage() {
   return (
       <Container>
-        <Navber/>
+        <AdminNav/>
             <div className="flex-grow">
                 <div className="container mx-auto shadow-xl my-1 p-8 rounded-xl">
-                    <Link href="/welcome" className='bg-gray-500 inline-block text-white border py-2 px-3 rounded my-2'>Go back</Link>
+                    <Link href="/admin/posts" className='bg-gray-500 inline-block text-white border py-2 px-3 rounded my-2'>Go back</Link>
                     <hr className="my-3" />
-                    <h3 className='text-xl'>Edit Post</h3>
+                    <h3 className='text-xl'>Admin Edit User Post</h3>
                     
                     <form action="">
                     <div className="flex flex-col">
@@ -27,6 +27,7 @@ function EditPage() {
                    
                 </div>
             </div>
+       
       </Container>
   )
 }
